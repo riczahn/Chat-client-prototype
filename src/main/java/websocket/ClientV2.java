@@ -52,8 +52,8 @@ public class ClientV2 {
     Message message = new Message();
     message.setContent(messageContent);
     message.setFrom(
-        "zahn@th-brandenburg.de"); // will most likely be obsolete once we add authentication
-    message.setTo("luedrick@th-brandenburg.de");
+        "student1@th-brandenburg.de"); // will most likely be obsolete once we add authentication
+    message.setTo("student2@th-brandenburg.de");
 
     webSocket.sendText(gson.toJson(message));
   }
